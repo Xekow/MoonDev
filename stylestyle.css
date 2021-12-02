@@ -1,0 +1,73 @@
+
+body {
+background: #1c0522;
+overflow-x: hidden;
+}
+
+header 
+{
+  position: absolute;
+  top:  -10px;
+  left: 300px;
+  width: 100%;
+  padding: 30px 100px;
+  dispay : flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+
+header ul 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+} 
+
+header ul li a 
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  font-family: Calibri;
+  color: #fff;
+  border-radius: 20px;
+}
+
+
+header ul li a:hover ,
+header ul li a.active
+{
+
+  background: #fff;
+  color: #2b1055;
+}
+
+.sec 
+{
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+}
+
+.sec h2
+{
+  font-size: 3.5em;
+  margin-bottom: 10px;
+  font-family: Calibri;
+  color: #fff;
+}
+
+.sec p
+{
+
+  font-size: 1em;
+  font-family: Calibri;
+  color: #fff;
+}
