@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="stylecode.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.80, maximum-scale=2.0, minimum-scale=0.80">
     <title>MoonDev</title>
   </head>
   <body>
@@ -26,9 +25,19 @@ Une balise se définit ainsi, où « balise » est le nom de la balise : balise
 Il existe cependant 2 types distincts de balises, les balises qui fonctionnent par paire et celles qui sont « orphelines ».<br><br>
 <h2>Les balises en paire</h2>
 <p>Ces balises sont utilisées par paire car elles encadrent un contenu (texte, d’autres balises,…).<br>
-La deuxième balise a une spécificité, elle contiendra toujours un / après le chevron ouvrant. Cela permet d’indiquer la fin de l’encadrement. Dans notre cas, notre titre est ce qui est contenu entre les deux balises title, mais tout ce qui sera avant ou après ces balises ne sera pas un titre.<h2>La base</h2><p>Voyons à quoi ressemblerait notre fichier « index.html » et son texte, avec les structures de base d’une page web : <br>
+La deuxième balise a une spécificité, elle contiendra toujours un / après le chevron ouvrant. Cela permet d’indiquer la fin de l’encadrement. Dans notre cas, notre titre est ce qui est contenu entre les deux balises title, mais tout ce qui sera avant ou après ces balises ne sera pas un titre.
+<h2>Les balises orphelines</h2>
+<p>Les balises orphelines sont seules et n’encadrent pas de contenu. Elles définissent généralement un élément HTML qui sera intégré à un endroit précis sur la page web.<br>
+Comme toutes les balises elles sont composées d’un nom et de 2 chevrons mais aussi d’un / avant le chevron fermant.<br><br>
+<h2>La base</h2>
+<p>Voyons à quoi ressemblerait notre fichier « index.html » et son texte, avec les structures de base d’une page web : <br>
  <br><img src="basehtml.PNG">
- <br>Par exemple, la balise html qui est ouverte avant la balise head se ferme avec  seulement après que la balise head ne soit écrite. Cet ordre est important à respecter, si vous fermez une balise avant que toutes les balises contenues dans cette première balise ne soient fermées votre site ne fonctionne pas.<br><br>
+ <br>Par exemple, la balise html qui est ouverte avant la balise head se ferme seulement après que la balise head ne soit écrite. Cet ordre est important à respecter, si vous fermez une balise avant que toutes les balises contenues dans cette première balise ne soient fermées votre site ne fonctionne pas.<br>
+ Regardons les balises utilisées dans cette exemple:<br><br>
+ - title est le titre qui s'affichera au niveau de l'onglet<br>
+ - h1 est une ballise qui permet de mettre en gros et en haut du site, plus le nombre est petit avec h plus le texte sera petit et bas<br>
+ - p permet de faire un paragraphe<br>
+ - br permet de revenir à la ligne<br><br>
  <h2> En résumé </h2>
  <p>Avec ces premiers éléments vous allez pouvoir créer la base de votre page web qui sera interprétable par n’importe quel navigateur web (Chrome, Safari, , Firefox, Microsoft Edge, …).
 
